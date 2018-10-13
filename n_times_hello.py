@@ -1,3 +1,4 @@
 n=int(input())
-for i in range(n):
-    print('Hello')
+ar=['Hello' for i in range(n)]
+for word in ar:
+    print(word)
