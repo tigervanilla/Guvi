@@ -3,5 +3,7 @@ def GCD(a,b):
         return b
     return GCD(b % a, a)
 
-n,m=(int(i) for i in input().split())
-print(GCD(n,m))
+n,m=map(int,input().split())
+gcd=GCD(n,m)
+lcm=n*m//gcd
+print(lcm)
