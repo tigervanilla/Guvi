@@ -8,5 +8,5 @@ while True:
             ans=a%b
         print(ans)
     except Exception:
-        break
+        exit(0)
     
