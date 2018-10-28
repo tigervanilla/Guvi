@@ -1,3 +1,4 @@
 from math import ceil
-n=float(input())
+n=input()
+n=float(n)
 print(ceil(n))
