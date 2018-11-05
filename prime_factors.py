@@ -6,5 +6,7 @@ for i in range(2,int(n**0.5)+1):
     j=i
     while not n%j:
         n//=j
+    if n>2:
+        prime_factors.add(n)
 for num in prime_factors:
     print(num,end=' ')
