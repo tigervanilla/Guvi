@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /**
- * HunterQ2
+ * HunterQ3
  */
-public class HunterQ2 {
+public class HunterQ3 {
 
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
