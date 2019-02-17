@@ -1,10 +1,6 @@
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
-/**
- *
- * @author Hariharan
- */
 public class Pro28 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
