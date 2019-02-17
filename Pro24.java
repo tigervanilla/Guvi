@@ -1,10 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- *
- * @author Hariharan
- */
 public class Pro24 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
